@@ -47,7 +47,7 @@ app.post("/users/registerUser", (req, res) => {
     }
 
     sendEmail({
-        to: 'mdens@gmx.net',
+        to: 'tsvjesingen@web.de',
         subject: "hey..",
         message: welcomeMessage(name)
     }).then(() => {
