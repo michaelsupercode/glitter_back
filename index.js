@@ -47,7 +47,7 @@ app.post("/users/registerUser", (req, res) => {
     }
 
     sendEmail({
-        to: 'info@super-code.de',
+        to: 'mdens@gmx.net',
         subject: "hey..",
         message: welcomeMessage(name)
     }).then(() => {
