@@ -20,7 +20,7 @@ app.use(express.json())
 
 app.use(express.static("uploads"))
 
-app.get("/", (_, res) => res.send("do U see me naked??:)"));
+app.get("/", (_, res) => res.send("do U see me??:)"));
 
 app.get("/users", (req, res) => {
     res.json(usersArray)
