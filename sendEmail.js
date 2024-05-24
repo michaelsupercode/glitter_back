@@ -36,7 +36,7 @@ function sendEmail(options) {
                 reject()
             }
         }).catch((err) => {
-            console.log("Error sending that fuckin`email", err)
+            console.log("Error sending that email", err)
             reject()
         })
     })
